@@ -1,0 +1,5 @@
+# Images for readme file
+
+This folder contains screenshots used in readme file of this project.
+
+Pasting from clipboard straight to the readme file doesn’t work for unknown reasons
