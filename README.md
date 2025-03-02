@@ -13,7 +13,7 @@
 ## Data Cleaning
 ![Data In](https://raw.githubusercontent.com/ogulik/Data-Cleaning-and-EDA-with-Pandas/refs/heads/main/images/dirty_data.png)  --->  ![Data Out](https://raw.githubusercontent.com/ogulik/Data-Cleaning-and-EDA-with-Pandas/refs/heads/main/images/clean_data.png)
 
-✅ Taken into account the common retail data processing practice to mark returned products by creating a separate transaction record with a negative quantity. Therefore, simply deleting rows with values below zero will leave cancelled transactions in place, incorrectly impacting the analytics outcome.
+✔️ Taken into account the common retail data processing practice to mark returned products by creating a separate transaction record with a negative quantity. Therefore, simply deleting rows with values below zero will leave cancelled transactions in place, incorrectly impacting the analytics outcome.
 
 Handled by separating affected products into a different dataframe:
 
